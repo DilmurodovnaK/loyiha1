@@ -1,0 +1,699 @@
+                    * {
+                        margin: 0 10px;
+                        padding: 0;
+                        container: 1440px;
+                        box-sizing: border-box;
+                        list-style: none;
+                    }
+                    
+                    .head {
+                        container: 1440px;
+                        margin: 10px auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    
+                    .lil {
+                        color: rgb(85, 105, 135);
+                        font-family: Poppins;
+                        font-size: 17px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        padding: 0 20px 0 20px;
+                    }
+                    
+                    .log {
+                        color: rgb(85, 105, 135);
+                        font-family: Poppins;
+                        font-size: 17px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        border: 0;
+                        border: none;
+                        background-color: white;
+                        padding: 8px 16px 8px 16px;
+                    }
+                    
+                    .photo {
+                        max-width: 200px;
+                    }
+                    
+                    .sign {
+                        margin-left: 20px;
+                        padding: 8px 16px 8px 16px;
+                        border-radius: 6px;
+                        box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+                        /* Primary/500 */
+                        background: rgb(91, 222, 139);
+                        border: none;
+                        color: white;
+                    }
+                    
+                    .fl {
+                        display: flex;
+                        max-width: 250px;
+                        justify-content: space-between;
+                    }
+                    
+                    ul {
+                        display: flex;
+                        max-width: 500px;
+                        justify-content: space-between;
+                    }
+                    
+                    @media only screen and (max-width: 1000px) {
+                        .ui {
+                            display: none;
+                        }
+                        .fl {
+                            margin-right: 15px;
+                        }
+                    }
+                    
+                    .bg {
+                        background-image: url(./images/obloshka.png);
+                        background-repeat: no-repeat;
+                        height: 568px;
+                        margin: 20px auto;
+                        border-radius: 13px;
+                        background-size: cover;
+                        width: 100%;
+                        max-width: 1250px;
+                    }
+                    
+                    .h1 {
+                        max-width: 777px;
+                        color: rgb(255, 255, 255);
+                        font-family: Poppins;
+                        font-size: 60px;
+                        font-weight: 600;
+                        line-height: 72px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                    }
+                    
+                    .p {
+                        max-width: 740px;
+                        color: rgb(136, 150, 171);
+                        font-family: Poppins;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        letter-spacing: 0%;
+                        text-align: start;
+                    }
+                    
+                    .orta {
+                        padding-top: 150px;
+                        row-gap: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        /* Centers items horizontally */
+                        text-align: center;
+                    }
+                    
+                    .bosh {
+                        display: flex;
+                        justify-content: center;
+                        /* Center items horizontally */
+                        align-items: center;
+                        /* Center items vertically */
+                        margin-top: 20px;
+                        /* Adjust spacing from the top */
+                    }
+                    
+                    .bosh input[type="email"] {
+                        padding: 20px;
+                        font-size: 16px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                        /* Rounded corners on the left */
+                        width: 300px;
+                        /* Adjust width as needed */
+                    }
+                    
+                    .bosh button {
+                        padding: 20px 35px;
+                        font-size: 16px;
+                        background-color: #22C55E;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        transition: background-color 0.3s ease;
+                    }
+                    
+                    .bosh button:hover {
+                        background-color: #0056b3;
+                    }
+                    
+                    .pas {
+                        margin-top: 3px;
+                        color: rgb(136, 150, 171);
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                    }
+                    
+                    .logo {
+                        margin: 50px auto;
+                        max-width: 1250px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    
+                    .main {
+                        margin: 100px auto;
+                        row-gap: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        /* Centers items horizontally */
+                        text-align: center;
+                    }
+                    
+                    .main h2 {
+                        max-width: 800px;
+                        color: rgb(42, 51, 66);
+                        font-family: Poppins;
+                        font-size: 36px;
+                        font-weight: 700;
+                        line-height: 44px;
+                        letter-spacing: -2%;
+                        text-align: center;
+                        padding: 0 20px;
+                    }
+                    
+                    .main p {
+                        max-width: 777px;
+                        color: rgb(85, 105, 135);
+                        font-family: Poppins;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        padding: 0 20px;
+                    }
+                    
+                    .item {
+                        max-width: 360px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        row-gap: 8px;
+                    }
+                    
+                    .item h3 {
+                        color: rgb(42, 51, 66);
+                        font-family: Poppins;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 32px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                    }
+                    
+                    .item p {
+                        color: rgb(85, 105, 135);
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                    }
+                    
+                    .six {
+                        margin-top: 50px;
+                        display: grid;
+                        row-gap: 60px;
+                        grid-template-columns: auto auto auto
+                    }
+                    
+                    .kok {
+                        margin: 60px auto 80px auto;
+                        padding: 40px 0;
+                        max-width: 1250px;
+                        display: flex;
+                        justify-content: space-around;
+                        background-color: #041b3a;
+                        border-radius: 6px;
+                    }
+                    
+                    .kok1 {
+                        max-width: 455px;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 13px;
+                        margin: 30px 0;
+                    }
+                    
+                    .kok1 h3 {
+                        max-width: 455px;
+                        color: #FFFFFF;
+                        font-family: Poppins;
+                        font-size: 33px;
+                        font-weight: 700;
+                        line-height: 44px;
+                        letter-spacing: -2%;
+                        text-align: center;
+                        padding: 0 20px;
+                    }
+                    
+                    .kok1 p {
+                        max-width: 455px;
+                        color: #8896AB;
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        padding: 0 20px;
+                    }
+                    
+                    .btn {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    
+                    .btn1 {
+                        padding: 20px 30px;
+                        font-size: 16px;
+                        background-color: #22C55E;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        transition: background-color 0.3s ease;
+                    }
+                    
+                    .btn2 {
+                        padding: 20px 30px;
+                        font-size: 16px;
+                        background-color: white;
+                        color: #333F51;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        transition: background-color 0.3s ease;
+                    }
+                    
+                    .btn1:hover {
+                        background-color: #0056b3;
+                    }
+                    
+                    .btn2:hover {
+                        background-color: #22C55E;
+                    }
+                    
+                    .gain {
+                        margin: 50px auto;
+                        max-width: 1250px;
+                        row-gap: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        /* Centers items horizontally */
+                        text-align: center;
+                    }
+                    
+                    .gain h2 {
+                        max-width: 800px;
+                        color: rgb(42, 51, 66);
+                        font-family: Poppins;
+                        font-size: 36px;
+                        font-weight: 700;
+                        line-height: 44px;
+                        letter-spacing: -2%;
+                        text-align: start;
+                    }
+                    
+                    .gain p {
+                        max-width: 777px;
+                        color: rgb(85, 105, 135);
+                        font-family: Poppins;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        letter-spacing: 0%;
+                        text-align: start;
+                    }
+                    
+                    .img1 {
+                        display: flex;
+                        margin: 50px auto;
+                        max-width: 1250px;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    .pas {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        max-width: 600px;
+                    }
+                    
+                    .f {
+                        display: flex;
+                        align-items: start;
+                        margin-bottom: 16px;
+                        justify-content: space-between;
+                    }
+                    
+                    .items h3 {
+                        color: rgb(42, 51, 66);
+                        font-family: Poppins;
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 32px;
+                        letter-spacing: 0%;
+                        text-align: start;
+                    }
+                    
+                    .items p {
+                        color: rgb(85, 105, 135);
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        text-align: start;
+                    }
+                    
+                    .photo1 {
+                        width: 100%;
+                        max-width: 470px;
+                        height: auto;
+                    }
+                    
+                    .img2 {
+                        display: flex;
+                        margin: 0px auto;
+                        max-width: 1250px;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    .gain2 {
+                        max-width: 400px;
+                    }
+                    
+                    .gain3 {
+                        max-width: 600px;
+                    }
+                    
+                    .last {
+                        max-width: 700px;
+                    }
+                    
+                    .son {
+                        margin: 40px auto;
+                        max-width: 1250px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .son1 {
+                        max-width: 450px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    .son1 h4 {
+                        color: rgb(34, 197, 94);
+                        font-family: Poppins;
+                        font-size: 48px;
+                        font-weight: 700;
+                        line-height: 60px;
+                        letter-spacing: -2%;
+                        text-align: center;
+                    }
+                    
+                    .son1 p {
+                        color: rgb(85, 105, 135);
+                        font-family: Poppins;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                    }
+                    
+                    .bgcolor {
+                        background-color: #041b3a;
+                        padding: 50px 0;
+                    }
+                    
+                    .gain4 h2 {
+                        color: white;
+                    }
+                    
+                    .six1 {
+                        max-width: 1250px;
+                        margin: 0 auto;
+                    }
+                    
+                    .item3 h3 {
+                        color: white;
+                    }
+                    
+                    .app {
+                        width: 100%;
+                        max-width: 1440px;
+                        height: auto;
+                    }
+                    
+                    .gain5 h2 {
+                        color: rgb(42, 51, 66);
+                        text-align: center;
+                    }
+                    
+                    @media only screen and (max-width: 900px) {
+                        .orta h1 {
+                            padding: 0 20px;
+                            max-width: 600px;
+                            font-size: 40px;
+                            font-weight: 600;
+                            line-height: 50px;
+                        }
+                        .orta p {
+                            max-width: 600px;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 20px;
+                            text-align: center;
+                            padding: 0 20px;
+                        }
+                        .bosh input[type="email"] {
+                            max-width: 200px;
+                            font-size: 14px;
+                        }
+                        .bosh button {
+                            padding: 20px 10px;
+                            font-size: 14px;
+                        }
+                        .im {
+                            display: none;
+                        }
+                        .main h2 {
+                            font-size: 30px;
+                            font-weight: 700;
+                            line-height: 40px;
+                        }
+                        .main p {
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 20px;
+                        }
+                        .main {
+                            margin: 50px auto;
+                        }
+                        .six {
+                            margin-top: 40px;
+                            display: grid;
+                            row-gap: 60px;
+                            grid-template-columns: auto auto
+                        }
+                        .item h3 {
+                            font-size: 19px;
+                            font-weight: 700;
+                        }
+                        .item p {
+                            font-size: 12px;
+                            font-weight: 500;
+                            line-height: 20px;
+                        }
+                        .kok {
+                            flex-direction: column;
+                            justify-content: center;
+                        }
+                        .kok1 {
+                            margin: 20px auto;
+                        }
+                        .btn {
+                            justify-content: center;
+                        }
+                        .img1 {
+                            flex-direction: column;
+                            row-gap: 20px;
+                        }
+                        .img2 {
+                            flex-direction: column;
+                        }
+                        .son1 h4 {
+                            font-size: 26px;
+                            font-weight: 600;
+                            line-height: 30px;
+                        }
+                        .son1 p {
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 20px;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 560px) {
+                        .son {
+                            flex-direction: column;
+                            row-gap: 20px;
+                        }
+                        .besh {
+                            flex-direction: column;
+                            align-items: center;
+                            row-gap: 20px;
+                        }
+                        .ul4 {
+                            flex-direction: column;
+                            align-items: center;
+                            row-gap: 15px;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 490px) {
+                        .orta h1 {
+                            font-size: 28px;
+                            font-weight: 600;
+                            padding: 0 10px;
+                            line-height: 30px;
+                        }
+                        .log {
+                            display: none;
+                        }
+                        .orta {
+                            padding-top: 80px;
+                        }
+                        .orta p {
+                            max-width: 500px;
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 15px;
+                            padding: 0 10px;
+                            text-align: center;
+                        }
+                        .bosh input[type="email"] {
+                            max-width: 200px;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                        }
+                        .bosh button {
+                            padding: 20px 15px;
+                            font-size: 14px;
+                        }
+                        .bosh {
+                            flex-direction: column;
+                        }
+                        .logo {
+                            flex-direction: column;
+                            row-gap: 20px;
+                        }
+                        .im {
+                            display: block;
+                        }
+                        .logo img {
+                            width: 150;
+                        }
+                        .bg {
+                            height: 510px;
+                        }
+                        .main h2 {
+                            padding: 0 10px;
+                        }
+                        .main p {
+                            padding: 0 10px;
+                        }
+                        .six {
+                            row-gap: 40px;
+                            grid-template-columns: auto
+                        }
+                        .item {
+                            max-width: 400px;
+                        }
+                        .main h2 {
+                            font-size: 27px;
+                            font-weight: 700;
+                            line-height: 30px;
+                        }
+                        .main p {
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 16px;
+                        }
+                        .kok1 h3 {
+                            font-size: 27px;
+                            font-weight: 600;
+                            line-height: 35px;
+                        }
+                        .kok1 p {
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 26px;
+                        }
+                        .btn button {
+                            padding: 15px 20px;
+                            font-size: 14px;
+                        }
+                        .items h3 {
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: center;
+                        }
+                        .items p {
+                            font-size: 12px;
+                            font-weight: 500;
+                            line-height: 20px;
+                            text-align: center;
+                        }
+                        .gain h2 {
+                            padding: 0 10px;
+                            font-size: 30px;
+                            font-weight: 700;
+                            line-height: 40px;
+                        }
+                        .gain p {
+                            padding: 0 10px;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 20px;
+                        }
+                        .f {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            row-gap: 5px;
+                        }
+                        .photo1 {
+                            max-width: 250px;
+                        }
+                    }
